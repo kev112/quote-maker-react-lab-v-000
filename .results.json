@@ -1,0 +1,228 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 14,
+    "passes": 14,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-12-09T03:55:59.422Z",
+    "end": "2020-12-09T03:55:59.653Z",
+    "duration": 231
+  },
+  "tests": [
+    {
+      "title": "should return an Object with a type of \"ADD_QUOTE\" and a quote object",
+      "fullTitle": "Quotes Actions addQuote(quote: {}) should return an Object with a type of \"ADD_QUOTE\" and a quote object",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"REMOVE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions removeQuote(quoteId: Integer) should return an Object with a type of \"REMOVE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"UPVOTE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions upvoteQuote(quoteId: Integer) should return an Object with a type of \"UPVOTE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"DOWNVOTE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions downvoteQuote(quoteId: INteger) should return an Object with a type of \"DOWNVOTE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders without crashing",
+      "fullTitle": "App Component renders without crashing",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders an h1 tag with \"Quote Maker\"",
+      "fullTitle": "App Component always renders an h1 tag with \"Quote Maker\"",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a `QuoteForm` component",
+      "fullTitle": "App Component always renders a `QuoteForm` component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a `Quotes` components",
+      "fullTitle": "App Component always renders a `Quotes` components",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote content from props.quote",
+      "fullTitle": "QuoteCard Component renders quote content from props.quote",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote author from props.quote",
+      "fullTitle": "QuoteCard Component renders quote author from props.quote",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote votes from props.quote",
+      "fullTitle": "QuoteCard Component renders quote votes from props.quote",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders without crashing",
+      "fullTitle": "QuoteForm Component renders without crashing",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a form tag",
+      "fullTitle": "QuoteForm Component always renders a form tag",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a textarea[name=\"content\"] tag for quote content",
+      "fullTitle": "QuoteForm Component always renders a textarea[name=\"content\"] tag for quote content",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "always renders a input[name=\"author\"] tag for quote author",
+      "fullTitle": "QuoteForm Component always renders a input[name=\"author\"] tag for quote author",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "QuoteForm must contain one <input name=\"author\" /> tag: expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: QuoteForm must contain one <input name=\"author\" /> tag: expected 0 to equal 1\n    at Context.<anonymous> (test/components/QuotesFormContainerTest.js:67:29)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return an Object with a type of \"ADD_QUOTE\" and a quote object",
+      "fullTitle": "Quotes Actions addQuote(quote: {}) should return an Object with a type of \"ADD_QUOTE\" and a quote object",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"REMOVE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions removeQuote(quoteId: Integer) should return an Object with a type of \"REMOVE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"UPVOTE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions upvoteQuote(quoteId: Integer) should return an Object with a type of \"UPVOTE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an Object with a type of \"DOWNVOTE_QUOTE\" and a quoteId",
+      "fullTitle": "Quotes Actions downvoteQuote(quoteId: INteger) should return an Object with a type of \"DOWNVOTE_QUOTE\" and a quoteId",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders without crashing",
+      "fullTitle": "App Component renders without crashing",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders an h1 tag with \"Quote Maker\"",
+      "fullTitle": "App Component always renders an h1 tag with \"Quote Maker\"",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a `QuoteForm` component",
+      "fullTitle": "App Component always renders a `QuoteForm` component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a `Quotes` components",
+      "fullTitle": "App Component always renders a `Quotes` components",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote content from props.quote",
+      "fullTitle": "QuoteCard Component renders quote content from props.quote",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote author from props.quote",
+      "fullTitle": "QuoteCard Component renders quote author from props.quote",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders quote votes from props.quote",
+      "fullTitle": "QuoteCard Component renders quote votes from props.quote",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders without crashing",
+      "fullTitle": "QuoteForm Component renders without crashing",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a form tag",
+      "fullTitle": "QuoteForm Component always renders a form tag",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "always renders a textarea[name=\"content\"] tag for quote content",
+      "fullTitle": "QuoteForm Component always renders a textarea[name=\"content\"] tag for quote content",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
